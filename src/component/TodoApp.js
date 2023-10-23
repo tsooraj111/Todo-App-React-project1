@@ -33,9 +33,9 @@ storeItems=(event)=>{
         items1.push(this.state.input);
         const items2=this.state.items.slice(a+1)
          const allItems = items1.concat(items2)
-        console.log(items1);
-        console.log(items2);
-        console.log("===>",allItems);
+        // console.log(items1);
+        // console.log(items2);
+        // console.log("===>",allItems);
         this.setState({
             items:allItems
         })
