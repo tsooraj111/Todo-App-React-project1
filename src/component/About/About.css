@@ -3,9 +3,10 @@
     justify-content: center;
 }
 .about p{
-    color: white;
+    color: rgba(255, 255, 255, 0.557);
     font-size: 2rem;
     width: 50%;
     margin-top: 50px;
     text-align: center;
+    text-decoration: i;
 }
