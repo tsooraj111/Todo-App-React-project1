@@ -5,8 +5,8 @@ import {Link} from "react-router-dom";
 export default function Header() {
   return (
     <header>
-      <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
+      <Link to="/Todo-App-React-project1">Home</Link>
+      <Link to="/Todo-App-React-project1/about">About</Link>
     </header>
   )
 }

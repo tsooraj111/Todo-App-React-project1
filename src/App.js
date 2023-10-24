@@ -11,8 +11,8 @@ class App extends Component {
         <Router>
         <Header/>
         <Routes>
-          <Route path='/' element={<TodoApp/>}></Route>
-          <Route path='/about' element={<About/>}></Route>
+          <Route path='/Todo-App-React-project1' element={<TodoApp/>}></Route>
+          <Route path='/Todo-App-React-project1/about' element={<About/>}></Route>
         </Routes>
         </Router>
       </div>
