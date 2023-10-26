@@ -65,9 +65,9 @@ editItem=(index)=>{
     return (
       <div className="todo-container">
         
-        <form className='input-section' onSubmit={this.storeItems}>
+        <form className='input-section' onSubmit={this.storeItems} autoComplete='off'>
         <h1>ToDo App</h1>
-            <input type="text" name='input' value={input} onChange={this.handleChange} placeholder='Enter item'/>
+            <input type="text" name='input' value={input} onChange={this.handleChange} placeholder='Enter the list of items' autoFocus/>
         </form>
         <ul>
             {items.map((data,index)=>(
